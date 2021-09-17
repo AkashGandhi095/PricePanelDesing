@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    font-family: 'Padauk', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+
+}
+
+header > h3 {
+    text-align: center;
+    margin: 14px;
+    font-size :x-large;
+}
+
+
+#plan-container {
+    display: flex;
+    justify-content: center;
+    /* height: 500px; */
+}
+
+.plan-item {
+    background-color: white;
+    margin: 12px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 440px;
+}
+
+.plan-item > img {
+    align-self: center;
+    margin-top: 12px;
+}
+
+.plan-title {
+    text-align: center;
+    margin-top: 30px;
+    /* letter-spacing: 2px; */
+    font-family: 'Inter', sans-serif;
+}
+.plan-subtitle {
+    color: rgba(0, 0, 0, 0.336);
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.plan-price {
+    text-align: center;
+    margin-left: -12px;
+    margin-top: 15px;
+}
+.price-symbol {
+    color: #4361ee;
+    font-weight: 400;
+}
+.price-text {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 900;
+    color: #4361ee;
+}
+
+.plan-validity {
+    text-align: center;
+    margin-top: -6px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.336);
+    font-weight: 700;
+}
+
+.plan-feature {
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    list-style: none;
+    margin-left: -25px;
+    /* padding: 0;
+    margin: 0; */
+}
+
+li::before {
+    content: "•  ";
+    color: #4361ee;
+    padding-right: 4px;
+}
+
+.plan-button {
+    background-color: grey;
+    border-radius: 20px;
+    /* padding: 5px; */
+    text-align: center;
+    /* margin-left: 12px;
+    margin-right: 12px; */
+    width: 220px;
+    margin-top: 40px;
+    align-self: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #4361ee;
+}
+
+
+#basic-button {
+    background-color: #f8f9fa;
+    color: #25a244;
+    font-weight: 600;
+}
+
+
+
